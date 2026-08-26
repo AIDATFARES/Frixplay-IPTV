@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
 import { blogPosts } from "@/data/blog";
 import Link from "next/link";
+import React from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ArrowLeft } from "lucide-react";
 import ArticleFAQAccordion from "@/components/blog/ArticleFAQAccordion";
+import BlogOfferCard from "@/components/blog/BlogOfferCard";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -17,22 +19,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: 'Post Not Found | OmniPtv' };
+    return { title: 'Post Not Found | Flash 4K' };
   }
 
   return {
-    title: `${post.title} | OmniPtv`,
+    title: `${post.title} | Flash4K`,
     description: post.description,
     alternates: {
       canonical: `/blog/${post.slug}`,
     },
     openGraph: {
-      title: `${post.title} | OmniPtv`,
+      title: `${post.title} | Flash4K`,
       description: post.description,
       url: `/blog/${post.slug}`,
       images: [
         {
-          url: post.coverImage || '/og-image.png',
+          url: post.coverImage || '/og-image.webp',
           width: 1200,
           height: 630,
           alt: post.title,
@@ -80,6 +82,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   const { beforeFaq, faqs, afterFaq } = parseArticleContent(post.content);
 
+  const beforeFaqParts = beforeFaq.split("[CTA_OFFER_CARD]");
+  const afterFaqParts = afterFaq.split("[CTA_OFFER_CARD]");
+
   const faqJsonLd = faqs.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -105,7 +110,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ol: ({ node, ...props }: any) => <ol className="list-decimal pl-6 mb-6 space-y-2" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    a: ({ node, ...props }: any) => <a className="text-[#FF5A2F] hover:text-[#FF6A35] no-underline font-semibold transition-colors" {...props} />,
+    a: ({ node, ...props }: any) => <a className="text-[#FFB800] hover:text-[#FFE600] no-underline font-semibold transition-colors" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     blockquote: ({ node, ...props }: any) => <blockquote className="border-l-4 border-primary pl-4 py-1 mb-6 italic bg-surface-container/30 rounded-r" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -174,9 +179,14 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           prose-th:text-on-surface prose-th:border-b prose-th:border-outline-variant prose-th:py-2
           prose-td:border-b prose-td:border-outline-variant/50 prose-td:py-2"
         >
-          <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-            {beforeFaq}
-          </ReactMarkdown>
+          {beforeFaqParts.map((part, idx) => (
+            <React.Fragment key={`before-${idx}`}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+                {part}
+              </ReactMarkdown>
+              {idx < beforeFaqParts.length - 1 && <BlogOfferCard />}
+            </React.Fragment>
+          ))}
 
           {faqs.length > 0 && (
             <div className="mt-12 mb-8">
@@ -185,13 +195,18 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
           )}
 
-          {afterFaq && (
-            <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-              {afterFaq}
-            </ReactMarkdown>
-          )}
+          {afterFaqParts.map((part, idx) => (
+            <React.Fragment key={`after-${idx}`}>
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+                {part}
+              </ReactMarkdown>
+              {idx < afterFaqParts.length - 1 && <BlogOfferCard />}
+            </React.Fragment>
+          ))}
         </div>
       </article>
+
+
 
       {/* Related Articles Section */}
       {(() => {

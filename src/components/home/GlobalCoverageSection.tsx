@@ -118,10 +118,10 @@ export default function GlobalCoverageSection() {
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center space-x-2 py-1.5 px-4 rounded-full border border-[#FF5A2F]/30 bg-[#120b29] mb-6 shadow-[0_0_15px_rgba(6,182,212,0.15)]"
+            className="inline-flex items-center space-x-2 py-1.5 px-4 rounded-full border border-[#FFB800]/30 bg-[#120b29] mb-6 shadow-[0_0_15px_rgba(6,182,212,0.15)]"
           >
-            <Globe className="w-3.5 h-3.5 text-[#FF6A35]" />
-            <span className="text-[10px] font-bold text-[#E83E59] uppercase tracking-widest">
+            <Globe className="w-3.5 h-3.5 text-[#FFE600]" />
+            <span className="text-[10px] font-bold text-[#FF7A00] uppercase tracking-widest">
               GLOBAL COVERAGE
             </span>
           </motion.div>
@@ -134,7 +134,7 @@ export default function GlobalCoverageSection() {
             className="text-4xl md:text-5xl font-extrabold font-sans uppercase tracking-tight mb-4"
           >
             <span className="text-white block mb-1">AVAILABLE IN</span>
-            <span className="bg-gradient-to-r from-[#FF5A2F] via-purple-400 to-[#FF3D57] text-transparent bg-clip-text block">
+            <span className="bg-gradient-to-r from-[#FFB800] via-purple-400 to-[#FFA500] text-transparent bg-clip-text block">
               150+ COUNTRIES
             </span>
           </motion.h2>
@@ -158,12 +158,12 @@ export default function GlobalCoverageSection() {
               }}
               className={`px-5 py-2 rounded-full text-[10px] md:text-xs font-bold tracking-widest uppercase transition-all duration-300 border ${
                 activeRegion === region
-                  ? "bg-red-600/30 text-red-200 border-[#FF6A35]/60 shadow-[0_0_20px_rgba(79,70,229,0.3)]"
+                  ? "bg-red-600/30 text-red-200 border-[#FFE600]/60 shadow-[0_0_20px_rgba(79,70,229,0.3)]"
                   : "bg-[#0c0f1d]/80 text-stone-400 border-white/10 hover:border-white/20 hover:text-stone-200"
               }`}
             >
               {region === "ALL" && activeRegion === "ALL" && (
-                <Globe className="w-3 h-3 inline mr-2 text-[#FF6A35] mb-0.5" />
+                <Globe className="w-3 h-3 inline mr-2 text-[#FFE600] mb-0.5" />
               )}
               {region}
             </button>
@@ -181,7 +181,7 @@ export default function GlobalCoverageSection() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.2 }}
-                className="bg-[#0c0f1e]/90 border border-white/10 hover:border-[#FF5A2F]/40 hover:bg-[#12162d] rounded-xl px-3.5 py-2.5 flex items-center gap-3 transition-all cursor-default group shadow-sm"
+                className="bg-[#0c0f1e]/90 border border-white/10 hover:border-[#FFB800]/40 hover:bg-[#12162d] rounded-xl px-3.5 py-2.5 flex items-center gap-3 transition-all cursor-default group shadow-sm"
               >
                 <img
                   src={`https://flagcdn.com/w40/${country.code}.png`}
@@ -205,10 +205,10 @@ export default function GlobalCoverageSection() {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-center mt-8">
             <button
               onClick={() => setIsExpanded(true)}
-              className="flex items-center space-x-2 px-6 py-2.5 rounded-full border border-white/15 bg-[#0c0f1e] text-xs font-bold text-stone-300 hover:text-white hover:border-[#FF5A2F]/40 transition-colors shadow-md"
+              className="flex items-center space-x-2 px-6 py-2.5 rounded-full border border-white/15 bg-[#0c0f1e] text-xs font-bold text-stone-300 hover:text-white hover:border-[#FFB800]/40 transition-colors shadow-md"
             >
               <span>SHOW ALL COUNTRIES</span>
-              <ChevronDown className="w-4 h-4 text-[#FF6A35]" />
+              <ChevronDown className="w-4 h-4 text-[#FFE600]" />
             </button>
           </motion.div>
         )}

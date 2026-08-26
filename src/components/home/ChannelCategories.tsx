@@ -41,13 +41,13 @@ export default function ChannelCategories() {
         {/* Heading above Red Box */}
         <div className="mx-auto mb-12 max-w-4xl text-center">
           <div className="inline-flex items-center justify-center gap-2 mb-4">
-            <span className="h-px w-8 bg-gradient-to-r from-transparent to-[#FF5A2F]"></span>
-            <span className="text-[#FF5A2F] text-sm font-bold tracking-[0.2em] uppercase">Premium Quality</span>
-            <span className="h-px w-8 bg-gradient-to-l from-transparent to-[#FF5A2F]"></span>
+            <span className="h-px w-8 bg-gradient-to-r from-transparent to-[#FFB800]"></span>
+            <span className="text-[#FFB800] text-sm font-bold tracking-[0.2em] uppercase">Premium Quality</span>
+            <span className="h-px w-8 bg-gradient-to-l from-transparent to-[#FFB800]"></span>
           </div>
           <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight leading-tight animate-fade-up">
             We Are Proud to Offer the <br className="hidden md:block" />
-            <span className="text-[#FF5A2F]">Premium IPTV Service.</span>
+            <span className="text-[#FFB800]">Premium IPTV Service.</span>
           </h2>
         </div>
 
@@ -62,7 +62,7 @@ export default function ChannelCategories() {
               return (
                 <div key={i} className="flex flex-col items-center">
                   <div className="mb-6 inline-flex p-4 rounded-full border border-white/10 bg-white/5">
-                    <Icon className="w-8 h-8 text-[#FF5A2F]" strokeWidth={1.5} />
+                    <Icon className="w-8 h-8 text-[#FFB800]" strokeWidth={1.5} />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-4">{feature.title}</h3>
                   <p className="text-stone-400 text-[15px] leading-relaxed max-w-[280px] mx-auto font-medium">
@@ -79,15 +79,15 @@ export default function ChannelCategories() {
           className="text-center mb-16 animate-fade-up"
           style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
         >
-          <h2 className="text-3xl md:text-5xl font-extrabold text-[#FF5A2F] mb-6 tracking-tight">
-            IPTVOmniPtv subscription prices
+          <h2 className="text-3xl md:text-5xl font-extrabold text-[#FFB800] mb-6 tracking-tight">
+            IPTVFlash4K subscription prices
           </h2>
           <p className="text-stone-300 text-sm md:text-base max-w-3xl mx-auto mb-8 font-medium">
-            Buying iptv from <span className="font-bold text-white">OmniPtv</span> allows you to enjoy +50,000 Channels, +120,000 Films &amp; Series, and 200,000+ VODs.
+            Buying iptv from <span className="font-bold text-white">Flash 4K</span> allows you to enjoy +50,000 Channels, +120,000 Films &amp; Series, and 200,000+ VODs.
           </p>
-          <h3 className="text-2xl md:text-[28px] font-semibold text-white">
-            High-Quality IPTV Servers <span className="text-[#FF5A2F]">with 24/7 Uptime</span> and Zero Buffering!
-          </h3>
+          <p className="text-2xl md:text-[28px] font-semibold text-white">
+            High-Quality IPTV Servers <span className="text-[#FFB800]">with 24/7 Uptime</span> and Zero Buffering!
+          </p>
         </div>
 
         {/* 3x2 Grid of Feature Pills */}
@@ -96,8 +96,8 @@ export default function ChannelCategories() {
           style={{ animationDelay: '0.4s', animationFillMode: 'both' }}
         >
           {checks.map((text, i) => (
-            <div key={i} className="flex items-center gap-4 bg-transparent border border-[#3b3552] rounded-full py-4 px-6 hover:border-[#FF5A2F] transition-colors duration-300 group">
-              <Check className="w-5 h-5 text-[#FF5A2F] shrink-0" strokeWidth={3} />
+            <div key={i} className="flex items-center gap-4 bg-transparent border border-[#3b3552] rounded-full py-4 px-6 hover:border-[#FFB800] transition-colors duration-300 group">
+              <Check className="w-5 h-5 text-[#FFB800] shrink-0" strokeWidth={3} />
               <span className="text-sm md:text-[15px] font-bold text-white transition-colors">{text}</span>
             </div>
           ))}

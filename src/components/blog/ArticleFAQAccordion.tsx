@@ -25,7 +25,7 @@ export default function ArticleFAQAccordion({ faqs }: { faqs: FAQItem[] }) {
         return (
           <div
             key={index}
-            className="rounded-xl border border-white/10 bg-[#0f1419]/90 overflow-hidden transition-all duration-300 hover:border-[#FF5A2F]/40 shadow-lg"
+            className="rounded-xl border border-white/10 bg-[#0f1419]/90 overflow-hidden transition-all duration-300 hover:border-[#FFB800]/40 shadow-lg"
           >
             <button
               onClick={() => toggle(index)}
@@ -33,14 +33,14 @@ export default function ArticleFAQAccordion({ faqs }: { faqs: FAQItem[] }) {
               aria-expanded={isOpen}
             >
               <div className="flex items-center gap-3">
-                <HelpCircle className="w-5 h-5 text-[#FF5A2F] shrink-0" />
+                <HelpCircle className="w-5 h-5 text-[#FFB800] shrink-0" />
                 <span className="font-bold text-base sm:text-lg text-white">
                   {faq.question}
                 </span>
               </div>
               <ChevronDown
                 className={`w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ${
-                  isOpen ? "rotate-180 text-[#FF5A2F]" : ""
+                  isOpen ? "rotate-180 text-[#FFB800]" : ""
                 }`}
               />
             </button>

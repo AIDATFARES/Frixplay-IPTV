@@ -35,16 +35,21 @@ export default function Home() {
         </h3>
       </div>
       <BrandMarquee 
-        imagesFolder="dawryate" 
-        images={["1235.webp", "1727368362913.webp", "1727368362933.webp", "1727368362971.webp", "ff25.webp"]}
-        cardClassName="flex-shrink-0 w-[140px] h-[200px] md:w-[200px] md:h-[280px] relative rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-[#0d0f12] hover:border-[#FF5A2F]/60 transition-all duration-300 group"
+        imagesFolder="usa_channels" 
+        images={[
+          "Serie-A-1.webp", "21o-XGlGl9L.webp", "Sans-titre-11.webp",
+          "Sans-titre-6-1-2.webp", "Sans-titre-9-1-2.webp", "NBA-IPTV-1-1.webp",
+          "NFL-IPTV-1-1.webp", "CL-IPTV-1-1.webp", "Premier-League-1-1.webp",
+          "Design-sans-titre-3-1.webp", "F1-IPTV-1-1.webp", "MLS-1.webp", "l2.webp", "l3.webp"
+        ]}
+        cardClassName="flex-shrink-0 w-[120px] h-[160px] md:w-[140px] md:h-[185px] relative rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-black hover:border-[#FFB800]/60 hover:scale-105 transition-all duration-300 group"
         imageClassName="object-cover rounded-xl"
       />
 
       {/* Channel & Installation Quick Links */}
       <div className="w-full bg-[#050607] py-6 px-4 text-center border-t border-white/5 relative z-20">
         <p className="text-center text-sm md:text-base text-stone-400 max-w-3xl mx-auto">
-          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FF5A2F] hover:text-[#FF6A35]" href="/channels">OmniPtv Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FF5A2F] hover:text-[#FF6A35]" href="/installation">OmniPtv Installation Guide</Link> for a quick start.
+          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/channels">Flash 4K Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/installation">Flash 4K Installation Guide</Link> for a quick start.
         </p>
       </div>
 

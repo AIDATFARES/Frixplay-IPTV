@@ -16,20 +16,20 @@
   --color-on-surface: #f8f9fa;
   --color-on-surface-variant: #a0a5b0;
   
-  --color-primary: #ff5a2f;
+  --color-primary: #FFB800;
   --color-on-primary: #ffffff;
-  --color-primary-container: #ff6a35;
+  --color-primary-container: #FFE600;
   --color-on-primary-container: #ffffff;
   
-  --color-secondary: #e83e59;
+  --color-secondary: #FF7A00;
   --color-on-secondary: #ffffff;
-  --color-secondary-container: #ff3d57;
+  --color-secondary-container: #FFA500;
   --color-on-secondary-container: #ffffff;
   
   --color-outline: #333842;
   --color-outline-variant: #1a1c21;
 
-  --color-error: #ff3d57;
+  --color-error: #FFA500;
   --color-on-error: #ffffff;
   --color-error-container: #5c0d17;
   --color-on-error-container: #ffb3bc;
@@ -102,19 +102,19 @@
     background: rgba(17, 19, 23, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 90, 47, 0.12);
+    border: 1px solid rgba(255, 184, 0, 0.12);
     border-radius: 16px;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
   }
   .glass-panel:hover {
     transform: translateY(-2px);
-    border-color: rgba(255, 90, 47, 0.3);
-    box-shadow: 0 8px 32px rgba(255, 90, 47, 0.15);
+    border-color: rgba(255, 184, 0, 0.3);
+    box-shadow: 0 8px 32px rgba(255, 184, 0, 0.15);
   }
 
   .text-glow {
-    text-shadow: 0 0 20px rgba(255, 90, 47, 0.4);
+    text-shadow: 0 0 20px rgba(255, 184, 0, 0.4);
   }
   .btn-glow:hover {
     box-shadow: 0 8px 30px rgba(255, 80, 50, 0.25);
@@ -122,7 +122,7 @@
 
   /* Primary CTA Buttons */
   .btn-primary-voltra {
-    background: linear-gradient(135deg, #FF5A2F 0%, #E83E59 100%);
+    background: linear-gradient(135deg, #FFB800 0%, #FF7A00 100%);
     color: #ffffff;
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -141,27 +141,27 @@
   /* Secondary Buttons */
   .btn-secondary-voltra {
     background: transparent;
-    border: 1px solid #FF5A2F;
+    border: 1px solid #FFB800;
     color: #ffffff;
     font-weight: 600;
     border-radius: 9999px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .btn-secondary-voltra:hover {
-    background: rgba(255, 90, 47, 0.1);
+    background: rgba(255, 184, 0, 0.1);
     transform: translateY(-2px);
   }
 
   /* Text Gradients */
   .text-gradient-primary {
-    background: linear-gradient(90deg, #FF5A2F, #E83E59);
+    background: linear-gradient(90deg, #FFB800, #FF7A00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .text-gradient-secondary {
-    background: linear-gradient(90deg, #FF6A35, #FF3D57);
+    background: linear-gradient(90deg, #FFE600, #FFA500);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -190,10 +190,10 @@
   }
   .text-format-marketing mark,
   .text-format-marketing .text-highlight {
-    @apply bg-transparent text-[#FF5A2F] font-extrabold;
+    @apply bg-transparent text-[#FFB800] font-extrabold;
   }
   .text-format-marketing .badge-text {
-    @apply inline-flex items-center gap-1.5 rounded-full border border-[#FF5A2F]/30 bg-[#FF5A2F]/10 px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#FF6A35];
+    @apply inline-flex items-center gap-1.5 rounded-full border border-[#FFB800]/30 bg-[#FFB800]/10 px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#FFE600];
   }
 
   /* 2. BLOG & EDITORIAL PAGES (Blog listing, Article detail) */
@@ -218,7 +218,7 @@
     @apply italic text-stone-200;
   }
   .text-format-blog a {
-    @apply text-[#FF5A2F] font-medium underline underline-offset-4 decoration-[#FF5A2F]/40 hover:text-[#FF6A35] hover:decoration-[#FF5A2F] transition-colors;
+    @apply text-[#FFB800] font-medium underline underline-offset-4 decoration-[#FFB800]/40 hover:text-[#FFE600] hover:decoration-[#FFB800] transition-colors;
   }
 
   /* 3. TECHNICAL GUIDES & INSTALLATION PAGES */
@@ -236,11 +236,11 @@
   }
   .text-format-technical code,
   .text-format-technical pre {
-    @apply font-mono text-[#FF5A2F] bg-[#111317] px-2.5 py-1 rounded-md border border-white/10 text-xs sm:text-sm font-medium tracking-wide shadow-inner;
+    @apply font-mono text-[#FFB800] bg-[#111317] px-2.5 py-1 rounded-md border border-white/10 text-xs sm:text-sm font-medium tracking-wide shadow-inner;
   }
   .text-format-technical strong,
   .text-format-technical b {
-    @apply font-bold text-white underline decoration-[#E83E59]/50 decoration-2 underline-offset-2;
+    @apply font-bold text-white underline decoration-[#FF7A00]/50 decoration-2 underline-offset-2;
   }
 
   /* 4. LEGAL & POLICY DOCUMENTS */
@@ -248,7 +248,7 @@
     @apply font-black uppercase tracking-tight text-white text-3xl sm:text-4xl lg:text-5xl;
   }
   .text-format-legal h2 {
-    @apply font-bold text-white text-xl sm:text-2xl tracking-normal mt-8 mb-3 border-l-4 border-[#FF5A2F] pl-3;
+    @apply font-bold text-white text-xl sm:text-2xl tracking-normal mt-8 mb-3 border-l-4 border-[#FFB800] pl-3;
   }
   .text-format-legal p {
     @apply text-stone-300 leading-7 font-normal text-sm sm:text-base mb-4 tracking-normal;
@@ -258,7 +258,7 @@
     @apply font-semibold text-white;
   }
   .text-format-legal a {
-    @apply font-semibold text-[#FF5A2F] hover:text-[#FF6A35] transition-colors underline underline-offset-2;
+    @apply font-semibold text-[#FFB800] hover:text-[#FFE600] transition-colors underline underline-offset-2;
   }
 }
 

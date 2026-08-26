@@ -6,10 +6,10 @@ export default function Contact() {
   return (
     <main className="flex-grow pt-32 pb-xl px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto w-full relative z-10">
       <div className="mx-auto mb-14 max-w-3xl text-center">
-        <span className="inline-flex rounded-full border border-[#FF6A35]/35 bg-[#FF6A35]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#E83E59]">Contact Support</span>
+        <span className="inline-flex rounded-full border border-[#FFE600]/35 bg-[#FFE600]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#FF7A00]">Contact Support</span>
         <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
           <span className="block text-white">Get in Touch with</span>
-          <span className="mt-1 block text-[#FF5A2F]">Our Support Team.</span>
+          <span className="mt-1 block text-[#FFB800]">Our Support Team.</span>
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-400">
           We&apos;re here to help you get the best streaming experience. Send us a message and we&apos;ll get back to you quickly.
@@ -27,9 +27,9 @@ export default function Contact() {
             <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">For general inquiries and support.</p>
             <a
               className="text-primary font-medium hover:text-primary-fixed transition-colors"
-              href="mailto:support@omniptv4k.shop"
+              href="mailto:support@flash4k-iptv.shop"
             >
-              support@omniptv4k.shop
+              support@flash4k-iptv.shop
             </a>
           </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
             </p>
             <a
               className="text-emerald-400 font-medium hover:text-emerald-300 transition-colors flex items-center gap-xs"
-              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20OmniPtv."
+              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20Flash4K."
               target="_blank"
               rel="noreferrer"
             >

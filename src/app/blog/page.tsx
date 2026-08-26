@@ -14,7 +14,7 @@ export default function Blog() {
       <header className="mb-16 text-center md:text-left">
         <h1 className="font-display-lg text-display-lg text-on-surface mb-4">Latest News &amp; Streaming Tips</h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-          Stay updated with the latest in 4K streaming technology, new channel additions, and guides to optimize your OmniPtv experience.
+          Stay updated with the latest in 4K streaming technology, new channel additions, and guides to optimize your Flash 4K experience.
         </p>
       </header>
 
@@ -36,9 +36,9 @@ export default function Blog() {
                 <span className="inline-block px-3 py-1 bg-tertiary/20 text-tertiary rounded-full font-label-caps text-label-caps mb-4 w-max border border-tertiary/30">
                   {featuredPost.category}
                 </span>
-                <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4 group-hover:text-primary transition-colors">
+                <h3 className="font-headline-lg text-headline-lg text-on-surface mb-4 group-hover:text-primary transition-colors">
                   {featuredPost.title}
-                </h2>
+                </h3>
                 <p className="font-body-lg text-body-lg text-on-surface-variant mb-6 line-clamp-3">
                   {featuredPost.description}
                 </p>
@@ -70,9 +70,9 @@ export default function Blog() {
                 </span>
               </div>
               <div className="p-6 flex flex-col flex-grow bg-surface-container-lowest/50">
-                <h2 className="font-title-md text-title-md text-on-surface mb-3 group-hover:text-primary transition-colors">
+                <h3 className="font-title-md text-title-md text-on-surface mb-3 group-hover:text-primary transition-colors">
                   {post.title}
-                </h2>
+                </h3>
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
                   {post.description}
                 </p>

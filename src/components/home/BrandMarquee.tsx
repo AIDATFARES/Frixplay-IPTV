@@ -20,8 +20,8 @@ export default function BrandMarquee({
   ];
 
   const brandList = images || defaultBrands;
-  const repeatList = brandList.length < 10 
-    ? [...brandList, ...brandList, ...brandList, ...brandList] 
+  const repeatList = brandList.length < 10
+    ? [...brandList, ...brandList, ...brandList, ...brandList]
     : [...brandList, ...brandList];
 
   return (
@@ -29,20 +29,20 @@ export default function BrandMarquee({
       {/* Left/Right Gradient Masks for smooth fading edges */}
       <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-[#050607] to-transparent z-10 pointer-events-none" />
       <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-[#050607] to-transparent z-10 pointer-events-none" />
-      
+
       {/* The scrolling container */}
       <div
         className={`flex gap-6 md:gap-8 px-6 items-center w-max ${brandList.length < 10 ? 'animate-marquee-fast' : 'animate-marquee'}`}
       >
         {repeatList.map((brand, i) => (
-          <div 
-            key={i} 
-            className={cardClassName || "flex-shrink-0 w-[100px] h-[50px] md:w-[140px] md:h-[65px] relative bg-white rounded-xl p-3 hover:scale-105 transition-all duration-300 shadow-[0_4px_15px_rgba(255,90,47,0.1)] hover:shadow-[0_6px_20px_rgba(255,90,47,0.25)] border border-[#FF5A2F]/15"}
+          <div
+            key={i}
+            className={cardClassName || "flex-shrink-0 w-[100px] h-[50px] md:w-[140px] md:h-[65px] relative bg-white rounded-xl p-3 hover:scale-105 transition-all duration-300 shadow-[0_4px_15px_rgba(255,184,0,0.1)] hover:shadow-[0_6px_20px_rgba(255,184,0,0.25)] border border-[#FFB800]/15"}
           >
             <div className="relative w-full h-full overflow-hidden rounded-xl">
-              <Image 
-                src={`/${imagesFolder}/${brand}`} 
-                alt="Channel Logo" 
+              <Image
+                src={`/${imagesFolder}/${brand}`}
+                alt="Channel Logo"
                 fill
                 sizes="(max-width: 640px) 100px, (max-width: 1024px) 140px, 160px"
                 className={imageClassName || "object-contain drop-shadow-md rounded-lg"}

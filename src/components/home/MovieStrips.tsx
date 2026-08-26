@@ -3,20 +3,20 @@ import Link from "next/link";
 
 export default function MovieStrips() {
   const row1 = [
-    "46803563a8701aa615fb654fb4ef7639.webp", "6da9e60dfd50f7ad0e5e344ee94e4c7e.webp", 
-    "8f516efb87c6d10460e585bb938d8fe1.webp", "bf75b83425cb9b5d998ae005d5ee7147.webp", 
-    "dffs.webp", "f33fe284009a72dbbd043f18f05ace39.webp", "new-movie1-e1736574874664.jpg.webp", 
-    "new-movie10-e1736574986310.jpg.webp", "new-movie12-e1736575004499.jpg.webp", 
-    "new-movie13-e1736575043741.jpg.webp", "new-movie18-e1736575106703.jpg.webp", 
+    "46803563a8701aa615fb654fb4ef7639.webp", "6da9e60dfd50f7ad0e5e344ee94e4c7e.webp",
+    "8f516efb87c6d10460e585bb938d8fe1.webp", "bf75b83425cb9b5d998ae005d5ee7147.webp",
+    "dffs.webp", "f33fe284009a72dbbd043f18f05ace39.webp", "new-movie1-e1736574874664.jpg.webp",
+    "new-movie10-e1736574986310.jpg.webp", "new-movie12-e1736575004499.jpg.webp",
+    "new-movie13-e1736575043741.jpg.webp", "new-movie18-e1736575106703.jpg.webp",
     "new-movie19-e1736575114454.jpg.webp", "new-movie2-e1736574891758.jpg.webp"
   ];
 
   const row2 = [
-    "new-movie20-e1736575123747.jpg.webp", "new-movie22-e1736575140704.jpg.webp", 
-    "new-movie23-e1736575149450.jpg.webp", "new-movie24-e1736575160161.jpg.webp", 
-    "new-movie3-e1736574911385.jpg.webp", "new-movie4-e1736574926107.jpg.webp", 
-    "new-movie5-e1736574938665.jpg.webp", "new-movie6-e1736574948584.jpg.webp", 
-    "new-movie7-e1736574959152.jpg.webp", "new-movie8-e1736574969539.jpg.webp", 
+    "new-movie20-e1736575123747.jpg.webp", "new-movie22-e1736575140704.jpg.webp",
+    "new-movie23-e1736575149450.jpg.webp", "new-movie24-e1736575160161.jpg.webp",
+    "new-movie3-e1736574911385.jpg.webp", "new-movie4-e1736574926107.jpg.webp",
+    "new-movie5-e1736574938665.jpg.webp", "new-movie6-e1736574948584.jpg.webp",
+    "new-movie7-e1736574959152.jpg.webp", "new-movie8-e1736574969539.jpg.webp",
     "new-movie9-e1736574978899.jpg.webp", "oMutDMODnbCZf46w0dK4wncQmDB.webp"
   ];
 
@@ -24,20 +24,20 @@ export default function MovieStrips() {
     <section className="w-full overflow-hidden bg-[#0a0a0a] py-16 relative flex flex-col gap-6">
       {/* Section Header */}
       <div className="text-center mb-8 px-4 z-20">
-        <span className="inline-block py-1 px-4 rounded-full bg-[#FF5A2F]/10 border border-[#FF5A2F]/30 text-[#FF5A2F] text-xs font-bold tracking-widest uppercase mb-4">
+        <span className="inline-block py-1 px-4 rounded-full bg-[#FFB800]/10 border border-[#FFB800]/30 text-[#FFB800] text-xs font-bold tracking-widest uppercase mb-4">
           Endless Entertainment
         </span>
         <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">
-          THE ULTIMATE <span className="text-[#FF5A2F]">CINEMATIC</span> EXPERIENCE
+          THE ULTIMATE <span className="text-[#FFB800]">CINEMATIC</span> EXPERIENCE
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-base mb-8">
           Explore a massive library of 200,000+ Films & Series. From the latest blockbuster hits to timeless classics, all available instantly in crystal-clear 4K Ultra HD.
         </p>
-        <Link 
+        <Link
           href="/channels"
-          className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#FF5A2F] text-white text-sm md:text-base font-medium bg-black/20 hover:bg-[#FF5A2F]/10 transition-colors duration-300 gap-2"
+          className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#FFB800] text-white text-sm md:text-base font-medium bg-black/20 hover:bg-[#FFB800]/10 transition-colors duration-300 gap-2"
         >
-          View OmniPtv Channel List <span aria-hidden="true">&rarr;</span>
+          View Flash 4K Channel List <span aria-hidden="true">&rarr;</span>
         </Link>
       </div>
 
@@ -76,7 +76,7 @@ export default function MovieStrips() {
           ))}
         </div>
       </div>
-      
+
       {/* Gradient Masks */}
       <div className="absolute left-0 top-0 bottom-0 w-12 md:w-32 bg-gradient-to-r from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
       <div className="absolute right-0 top-0 bottom-0 w-12 md:w-32 bg-gradient-to-l from-[#0a0a0a] to-transparent z-10 pointer-events-none" />

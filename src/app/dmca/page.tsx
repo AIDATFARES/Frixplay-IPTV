@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Legal Disclaimer & DMCA | OmniPtv",
-  description: "Read the OmniPtv legal disclaimer and DMCA policy regarding our IPTV service. We respect copyright and intellectual property rights.",
+  title: "Legal Disclaimer & DMCA | Flash 4K",
+  description: "Read the Flash 4K legal disclaimer and DMCA policy regarding our IPTV service. We respect copyright and intellectual property rights.",
   alternates: {
     canonical: "/dmca",
   },
@@ -19,13 +19,13 @@ const sections = [
   {
     title: "Content Ownership and Hosting",
     content: [
-      "OmniPtv does not possess, manage, upload, store, or distribute copyrighted materials. All streams available via your account are sourced from external parties on the public internet. Mentions of channels, logos, or trademarks are solely for identification purposes and are owned by their respective entities.",
+      "Flash 4K does not possess, manage, upload, store, or distribute copyrighted materials. All streams available via your account are sourced from external parties on the public internet. Mentions of channels, logos, or trademarks are solely for identification purposes and are owned by their respective entities.",
     ],
   },
   {
     title: "Availability and Service Changes",
     content: [
-      <>Channel and VOD options may vary in availability, quality (including 4K/FHD/HD), features, plans, and <Link className="font-semibold text-[#FF6A35] hover:text-[#E83E59]" href="/pricing">pricing</Link>, and can be modified or removed by region without prior notification. We do not assure the availability of any particular <Link className="font-semibold text-[#FF6A35] hover:text-[#E83E59]" href="/channels">channel</Link>, event, or title.</>,
+      <>Channel and VOD options may vary in availability, quality (including 4K/FHD/HD), features, plans, and <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/pricing">pricing</Link>, and can be modified or removed by region without prior notification. We do not assure the availability of any particular <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/channels">channel</Link>, event, or title.</>,
     ],
   },
   {
@@ -49,13 +49,13 @@ const sections = [
   {
     title: "Limitation of Liability",
     content: [
-      "OmniPtv, its owners, affiliates, employees, and agents shall not be liable to the fullest extent permitted by law for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, profits, or goodwill connected to your use of the site or service.",
+      "Flash 4K, its owners, affiliates, employees, and agents shall not be liable to the fullest extent permitted by law for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, profits, or goodwill connected to your use of the site or service.",
     ],
   },
   {
     title: "Indemnification",
     content: [
-      "You agree to defend, indemnify, and shield OmniPtv from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) related to your use of the service or any infringement of this disclaimer or applicable law.",
+      "You agree to defend, indemnify, and shield Flash 4K from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) related to your use of the service or any infringement of this disclaimer or applicable law.",
     ],
   },
   {
@@ -88,10 +88,10 @@ export default function DmcaPage() {
     <main className="flex-grow px-5 pb-20 pt-12 sm:px-8 md:pt-16">
       <article className="mx-auto max-w-4xl">
         <header className="border-b border-white/10 pb-10 text-center mx-auto max-w-3xl">
-          <span className="inline-flex rounded-full border border-[#FF6A35]/35 bg-[#FF6A35]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#E83E59]">Legal information</span>
+          <span className="inline-flex rounded-full border border-[#FFE600]/35 bg-[#FFE600]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#FF7A00]">Legal information</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
             <span className="block text-white">Legal Disclaimer</span>
-            <span className="mt-1 block text-[#FF5A2F]">&amp; DMCA Notice.</span>
+            <span className="mt-1 block text-[#FFB800]">&amp; DMCA Notice.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-400">Last updated: {currentDate}</p>
         </header>
@@ -100,7 +100,7 @@ export default function DmcaPage() {
           <div className="space-y-4">
             <p>Content featured on this website is meant for general informational use and does not serve as legal advice. By engaging with our site or services, you agree to this disclaimer.</p>
             <div className="rounded-xl border border-blue-500/20 bg-blue-500/10 p-5 text-sm">
-              <strong className="text-white">Important:</strong> OmniPtv delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided 'as is' for general guidance, not legal counsel.
+              <strong className="text-white">Important:</strong> Flash 4K delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided 'as is' for general guidance, not legal counsel.
             </div>
           </div>
 
@@ -115,7 +115,7 @@ export default function DmcaPage() {
           
           <section>
             <h2 className="text-2xl font-bold text-white">11. Contact</h2>
-            <p className="mt-4">For any inquiries, refer to our Terms of Service and <Link className="font-semibold text-[#FF6A35] hover:text-[#E83E59]" href="/privacy-policy">Privacy Policy</Link>, or contact <Link className="font-semibold text-[#FF6A35] hover:text-[#E83E59]" href="/contact">support</Link>.</p>
+            <p className="mt-4">For any inquiries, refer to our Terms of Service and <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/privacy-policy">Privacy Policy</Link>, or contact <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/contact">support</Link>.</p>
           </section>
         </div>
       </article>

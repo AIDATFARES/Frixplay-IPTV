@@ -8,20 +8,20 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     id: 1,
-    question: "1. What is OmniPtv?",
+    question: "1. What is Flash 4K?",
     answer: (
       <>
-        OmniPtv is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        Flash 4K is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link
           href="/channels"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
         >
           live TV channels
         </Link>{" "}
         and{" "}
         <a
           href="#pricing"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors cursor-pointer"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors cursor-pointer"
         >
           IPTV subscription plans
         </a>
@@ -31,22 +31,22 @@ const faqs = [
   },
   {
     id: 2,
-    question: "2. Do I need a subscription to use OmniPtv?",
+    question: "2. Do I need a subscription to use Flash 4K?",
     answer: (
       <>
         Yes, a subscription is required. However, we offer a{" "}
         <a
-          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20OmniPtv%20IPTV."
+          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Flash4K%20IPTV."
           target="_blank"
           rel="noreferrer"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
         >
           free trial
         </a>{" "}
         so you can test the service before committing to our{" "}
         <a
           href="#pricing"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors cursor-pointer"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors cursor-pointer"
         >
           subscription plans
         </a>
@@ -56,13 +56,13 @@ const faqs = [
   },
   {
     id: 3,
-    question: "3. What devices are compatible with OmniPtv?",
+    question: "3. What devices are compatible with Flash 4K?",
     answer: (
       <>
-        OmniPtv works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
+        Flash 4K works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
         <Link
           href="/installation"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
         >
           installation guides
         </Link>{" "}
@@ -78,7 +78,7 @@ const faqs = [
         Yes, we offer multi-device support. You can choose an{" "}
         <a
           href="#pricing"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors cursor-pointer"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors cursor-pointer"
         >
           IPTV subscription plan
         </a>{" "}
@@ -88,13 +88,13 @@ const faqs = [
   },
   {
     id: 5,
-    question: "5. Can I watch sports on OmniPtv?",
+    question: "5. Can I watch sports on Flash 4K?",
     answer: (
       <>
         Absolutely. We offer a wide selection of live sports channels, including major leagues and international events. Explore our full{" "}
         <Link
           href="/channels"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
         >
           channels catalog
         </Link>
@@ -110,7 +110,7 @@ const faqs = [
         We accept PayPal, cryptocurrency (such as Bitcoin), credit cards, and instant bank transfers for quick and secure payments. Contact our{" "}
         <Link
           href="/contact"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
         >
           support team
         </Link>{" "}
@@ -126,7 +126,7 @@ const faqs = [
         The service includes live TV channels, sports, movies, TV series, kids&apos; content, international channels, and more – all in HD or 4K quality. Learn more in our{" "}
         <Link
           href="/blog"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
         >
           IPTV articles & guides
         </Link>
@@ -142,7 +142,7 @@ const faqs = [
         A VPN is not required but is recommended in some regions to ensure unrestricted access and added privacy. Read our{" "}
         <Link
           href="/faq"
-          className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+          className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
         >
           FAQ knowledge base
         </Link>{" "}
@@ -171,21 +171,21 @@ export default function FAQSection() {
             Find answers to common questions about our IPTV service, including{" "}
             <a
               href="#pricing"
-              className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors cursor-pointer"
+              className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors cursor-pointer"
             >
               subscriptions
             </a>
             ,{" "}
             <Link
               href="/installation"
-              className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+              className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
             >
               devices
             </Link>
             , streaming quality, payments, and more. If you need further help, our{" "}
             <Link
               href="/contact"
-              className="text-[#FF5A2F] font-semibold hover:text-[#FF6A35] transition-colors"
+              className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
             >
               support team
             </Link>{" "}
@@ -200,7 +200,7 @@ export default function FAQSection() {
             return (
               <div
                 key={faq.id}
-                className={`flex flex-col rounded-2xl overflow-hidden border transition-all duration-300 ${isOpen ? "border-[#FF5A2F]/50 bg-[#0D0F12] shadow-[0_0_20px_rgba(255,90,47,0.1)]" : "border-white/10 glass-panel hover:border-[#FF5A2F]/30"}`}
+                className={`flex flex-col rounded-2xl overflow-hidden border transition-all duration-300 ${isOpen ? "border-[#FFB800]/50 bg-[#0D0F12] shadow-[0_0_20px_rgba(255,184,0,0.1)]" : "border-white/10 glass-panel hover:border-[#FFB800]/30"}`}
               >
                 <button
                   onClick={() => toggle(index)}
@@ -208,14 +208,14 @@ export default function FAQSection() {
                   aria-expanded={isOpen}
                 >
                   <div className="flex items-center gap-3">
-                    <HelpCircle className={`w-5 h-5 shrink-0 transition-colors duration-300 ${isOpen ? "text-[#FF5A2F]" : "text-stone-400"}`} />
-                    <h3 className={`text-base sm:text-lg font-bold leading-snug transition-colors duration-300 ${isOpen ? "text-[#FF5A2F]" : "text-white"}`}>
+                    <HelpCircle className={`w-5 h-5 shrink-0 transition-colors duration-300 ${isOpen ? "text-[#FFB800]" : "text-stone-400"}`} />
+                    <h3 className={`text-base sm:text-lg font-bold leading-snug transition-colors duration-300 ${isOpen ? "text-[#FFB800]" : "text-white"}`}>
                       {faq.question}
                     </h3>
                   </div>
                   <ChevronDown
                     className={`w-5 h-5 transition-transform duration-300 shrink-0 ${
-                      isOpen ? "rotate-180 text-[#FF5A2F]" : "text-stone-500"
+                      isOpen ? "rotate-180 text-[#FFB800]" : "text-stone-500"
                     }`}
                   />
                 </button>
@@ -243,7 +243,7 @@ export default function FAQSection() {
         <div className="mt-12 text-center animate-fade-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
           <Link
             href="/faq"
-            className="inline-flex items-center gap-2.5 px-7 py-3 rounded-full bg-gradient-to-r from-[#FF5A2F] to-[#E83E59] text-white font-bold text-xs sm:text-sm hover:from-[#E83E59] hover:to-[#FF5A2F] transition-all duration-300 shadow-[0_4px_15px_rgba(255,90,47,0.3)] hover:scale-105 active:scale-95"
+            className="inline-flex items-center gap-2.5 px-7 py-3 rounded-full bg-gradient-to-r from-[#FFB800] to-[#FF7A00] text-white font-bold text-xs sm:text-sm hover:from-[#FF7A00] hover:to-[#FFB800] transition-all duration-300 shadow-[0_4px_15px_rgba(255,184,0,0.3)] hover:scale-105 active:scale-95"
           >
             <span>View Complete FAQ Knowledge Base</span>
             <ArrowRight className="w-4 h-4" />
