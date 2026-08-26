@@ -2,15 +2,13 @@ import Image from "next/image";
 import { Globe2, Headphones, RefreshCw, ShieldCheck, Star, Trophy, Tv, Users } from "lucide-react";
 
 const reviewImages = [
-  "1-2.webp",
-  "2-2.webp",
-  "3-3.webp",
-  "4-2.webp",
-  "1-2 (1).webp",
-  "Image01-e1736575288611.jpg.webp",
-  "Image02-e1736575280733.jpg.webp",
-  "Image03-e1736575270823.jpg.webp",
-  "Image07-e1736575248206.jpg.webp"
+  "3333333332.webp",
+  "333333333233.webp",
+  "33333333326z3a (1).webp",
+  "33333333326z3a.webp",
+  "3333333332s.webp",
+  "3333333332z6z.webp",
+  "3333333332zi.webp"
 ];
 
 const metrics = [
