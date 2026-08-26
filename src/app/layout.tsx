@@ -41,14 +41,6 @@ export const metadata: Metadata = {
     description: "Unlock endless entertainment with Flash 4K. Stream 50,000+ live TV channels, premium sports, and 120,000+ VODs in true 4K quality across all your favorite devices.",
     url: "https://www.flash4k-iptv.shop",
     siteName: "Flash 4K",
-    images: [
-      {
-        url: "/og-image.webp",
-        width: 1200,
-        height: 630,
-        alt: "Flash 4K Premium IPTV Service",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
@@ -56,7 +48,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Flash 4K - Premium 4K Streaming",
     description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
-    images: ["/og-image.webp"],
   },
 };
 

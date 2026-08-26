@@ -32,14 +32,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: `${post.title} | Flash4K`,
       description: post.description,
       url: `/blog/${post.slug}`,
-      images: [
-        {
-          url: post.coverImage || '/og-image.webp',
-          width: 1200,
-          height: 630,
-          alt: post.title,
-        }
-      ],
+      ...(post.coverImage && {
+        images: [
+          {
+            url: post.coverImage,
+            width: 1200,
+            height: 630,
+            alt: post.title,
+          }
+        ]
+      }),
       type: 'article',
       publishedTime: post.date,
     }
