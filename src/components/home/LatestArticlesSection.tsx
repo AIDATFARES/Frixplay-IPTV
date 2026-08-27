@@ -5,8 +5,9 @@ import { ArrowRight } from "lucide-react";
 export default function LatestArticlesSection() {
   // Select featured articles from our blog dataset
   const featuredSlugs = [
-    "how-to-watch-nba-games-live-2026",
-    "how-to-watch-nfl-games-live-2026",
+    "iptv-works-on-one-device-but-not-another",
+    "iptv-buffering-after-a-few-minutes",
+    "iptv-keeps-freezing-causes-fixes",
   ];
 
   const latestPosts = featuredSlugs

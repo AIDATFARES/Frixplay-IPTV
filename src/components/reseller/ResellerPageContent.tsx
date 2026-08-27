@@ -25,26 +25,31 @@ type CreditPlan = {
 
 const creditPlans: CreditPlan[] = [
   {
-    id: "120-credits",
-    credits: 120,
-    price: 299,
+    id: "100-credits",
+    credits: 100,
+    price: 500,
   },
   {
-    id: "240-credits",
-    credits: 240,
-    price: 559,
+    id: "200-credits",
+    credits: 200,
+    price: 1000,
     popular: true,
   },
   {
-    id: "360-credits",
-    credits: 360,
-    price: 799,
+    id: "300-credits",
+    credits: 300,
+    price: 1500,
     bestValue: true,
   },
   {
-    id: "600-credits",
-    credits: 600,
-    price: 1199,
+    id: "400-credits",
+    credits: 400,
+    price: 2000,
+  },
+  {
+    id: "500-credits",
+    credits: 500,
+    price: 2500,
   },
 ];
 
@@ -215,7 +220,7 @@ export default function ResellerPageContent() {
             </p>
           </div>
 
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 items-stretch">
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5 items-stretch">
             {creditPlans.map((plan) => (
               <article
                 key={plan.id}
