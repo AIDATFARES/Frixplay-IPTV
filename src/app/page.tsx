@@ -49,7 +49,7 @@ export default function Home() {
       {/* Channel & Installation Quick Links */}
       <div className="w-full bg-[#050607] py-6 px-4 text-center border-t border-white/5 relative z-20">
         <p className="text-center text-sm md:text-base text-stone-400 max-w-3xl mx-auto">
-          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/channels">Flash 4K Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/installation">Flash 4K Installation Guide</Link> for a quick start.
+          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/channels">Flash4K Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/installation">Flash4K Installation Guide</Link> for a quick start.
         </p>
       </div>
 

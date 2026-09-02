@@ -26,16 +26,16 @@ export default function TestimonialsSection() {
       <div className="relative">
         <div className="mx-auto max-w-3xl px-5 text-center">
           <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-400/40 bg-amber-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.15em] text-amber-300">
-            <Trophy className="h-3 w-3" /> Verified Flash 4K reviews
+            <Trophy className="h-3 w-3" /> Verified Flash4K reviews
           </span>
           <h2 className="mt-6 text-4xl font-black uppercase leading-[0.98] tracking-tight text-white sm:text-5xl animate-fade-up">
             <span className="block">Real Reviews from</span>
             <span className="mt-1 block text-gradient-primary">
-              Flash 4K Subscribers
+              Flash4K Subscribers
             </span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-400 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Discover why viewers around the world choose Flash 4K for reliable live channels, movies, series, and responsive support.
+            Discover why viewers around the world choose Flash4K for reliable live channels, movies, series, and responsive support.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function TestimonialsSection() {
               >
                 <Image
                   src={`/reviews/${img}`}
-                  alt="Flash 4K Customer Review"
+                  alt="Flash4K Customer Review"
                   fill
                   sizes="(max-width: 640px) 220px, 280px"
                   className="object-contain group-hover:scale-105 transition-transform duration-300"

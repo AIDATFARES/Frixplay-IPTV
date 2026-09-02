@@ -7,14 +7,14 @@ export default function HowItWorksSection() {
       <div className="max-w-[1240px] mx-auto px-6">
 
         {/* ========================================================================= */}
-        {/* PART 1: How does it work? Flash 4K Timeline */}
+        {/* PART 1: How does it work? Flash4K Timeline */}
         {/* ========================================================================= */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-widest text-[#FFB800] mb-2 block">
             EASY 3-STEP PROCESS
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#FFB800] tracking-tight">
-            How does it work? Flash 4K
+            How does it work? Flash4K
           </h2>
           <p className="text-stone-300 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
             Get your{" "}
@@ -183,15 +183,15 @@ export default function HowItWorksSection() {
         </div>
 
         {/* ========================================================================= */}
-        {/* PART 2: Getting Started with Flash 4K Is Easy */}
+        {/* PART 2: Getting Started with Flash4K Is Easy */}
         {/* ========================================================================= */}
         <div className="pt-10 border-t border-white/10">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#FFB800] tracking-tight">
-              Getting Started with Flash 4K Is Easy
+              Getting Started with Flash4K Is Easy
             </h2>
             <p className="text-stone-300 text-sm sm:text-base mt-4 leading-relaxed">
-              Enjoy high quality IPTV streaming with Flash 4K. Watch{" "}
+              Enjoy high quality IPTV streaming with Flash4K. Watch{" "}
               <Link
                 href="/channels"
                 className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
@@ -233,7 +233,7 @@ export default function HowItWorksSection() {
                   >
                     IPTV subscription
                   </a>{" "}
-                  from Flash 4K. Choose from 1, 3, 6 or 12 months packages and experience continuous entertainment with full access to our{" "}
+                  from Flash4K. Choose from 1, 3, 6 or 12 months packages and experience continuous entertainment with full access to our{" "}
                   <Link
                     href="/channels"
                     className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
@@ -310,7 +310,7 @@ export default function HowItWorksSection() {
                   </Link>
                 </h3>
                 <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
-                  With Flash 4K you get access to an interactive TV guide (EPG), Live TV, and replay options. Read our{" "}
+                  With Flash4K you get access to an interactive TV guide (EPG), Live TV, and replay options. Read our{" "}
                   <Link
                     href="/installation"
                     className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"

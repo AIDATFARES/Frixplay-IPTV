@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { ChevronDown, CircleHelp, Clock3, CreditCard, HelpCircle, Mail, MessageCircle, MonitorPlay, Send, Settings2, UserRound } from "lucide-react";
 
-type Category = "About Flash 4K" | "Setup & streaming" | "Plans & access" | "Payments & support";
+type Category = "About Flash4K" | "Setup & streaming" | "Plans & access" | "Payments & support";
 
 type FAQItem = {
   category: Category;
@@ -13,7 +13,7 @@ type FAQItem = {
 };
 
 const categories: { label: Category; icon: typeof CircleHelp }[] = [
-  { label: "About Flash 4K", icon: CircleHelp },
+  { label: "About Flash4K", icon: CircleHelp },
   { label: "Setup & streaming", icon: Settings2 },
   { label: "Plans & access", icon: UserRound },
   { label: "Payments & support", icon: CreditCard },
@@ -21,73 +21,73 @@ const categories: { label: Category; icon: typeof CircleHelp }[] = [
 
 const faqs: FAQItem[] = [
   {
-    category: "About Flash 4K",
-    question: "1. What is Flash 4K?",
+    category: "About Flash4K",
+    question: "1. What is Flash4K?",
     answer: (
       <>
-        Flash 4K is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        Flash4K is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link href="/channels" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">live TV channels</Link> and{" "}
         <Link href="/pricing" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">IPTV subscription plans</Link>.
       </>
     ),
   },
   {
-    category: "About Flash 4K",
-    question: "2. Is Flash 4K authorized?",
+    category: "About Flash4K",
+    question: "2. Is Flash4K authorized?",
     answer: (
       <>
-        Flash 4K is intended to be used in accordance with applicable laws, local regulations, and our service terms. Please ensure that the content you access and the way you use the service are permitted in your location.
+        Flash4K is intended to be used in accordance with applicable laws, local regulations, and our service terms. Please ensure that the content you access and the way you use the service are permitted in your location.
       </>
     ),
   },
   {
-    category: "About Flash 4K",
-    question: "3. What channels and content are included with Flash 4K?",
+    category: "About Flash4K",
+    question: "3. What channels and content are included with Flash4K?",
     answer: (
       <>
-        Flash 4K includes a broad selection of live channels covering sports, news, and entertainment, along with a regularly updated on-demand library of movies and TV series. Check our <Link href="/channels" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">full channels catalog</Link>.
+        Flash4K includes a broad selection of live channels covering sports, news, and entertainment, along with a regularly updated on-demand library of movies and TV series. Check our <Link href="/channels" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">full channels catalog</Link>.
       </>
     ),
   },
   {
-    category: "About Flash 4K",
-    question: "4. Can I watch live sports and PPV events on Flash 4K?",
+    category: "About Flash4K",
+    question: "4. Can I watch live sports and PPV events on Flash4K?",
     answer: (
       <>
-        Flash 4K includes a range of live sports channels and events. Coverage can include football, NFL, NBA, UFC, and pay-per-view events. Explore our <Link href="/channels" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">live sports section</Link>.
+        Flash4K includes a range of live sports channels and events. Coverage can include football, NFL, NBA, UFC, and pay-per-view events. Explore our <Link href="/channels" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">live sports section</Link>.
       </>
     ),
   },
   {
-    category: "About Flash 4K",
+    category: "About Flash4K",
     question: "5. Which devices can I use?",
     answer: (
       <>
-        Flash 4K works with compatible IPTV apps on Smart TVs, Android TV, Firestick, Apple TV, smartphones, tablets, and computers. Follow our <Link href="/installation" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">installation guides</Link> to get started.
+        Flash4K works with compatible IPTV apps on Smart TVs, Android TV, Firestick, Apple TV, smartphones, tablets, and computers. Follow our <Link href="/installation" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">installation guides</Link> to get started.
       </>
     ),
   },
   {
     category: "Setup & streaming",
-    question: "1. How do I install Flash 4K on my device?",
+    question: "1. How do I install Flash4K on my device?",
     answer: (
       <>
-        Start by installing a compatible IPTV player on your device. Enter the Flash 4K credentials from your email. View our step-by-step <Link href="/installation" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">installation guides</Link> for detailed instructions.
+        Start by installing a compatible IPTV player on your device. Enter the Flash4K credentials from your email. View our step-by-step <Link href="/installation" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">installation guides</Link> for detailed instructions.
       </>
     ),
   },
   {
     category: "Setup & streaming",
-    question: "2. Can I use Flash 4K on a Smart TV?",
+    question: "2. Can I use Flash4K on a Smart TV?",
     answer: (
       <>
-        Yes, Flash 4K can be used on Smart TVs including Samsung, LG, and Android TV models using compatible IPTV players like Tivimate or Smarters.
+        Yes, Flash4K can be used on Smart TVs including Samsung, LG, and Android TV models using compatible IPTV players like Tivimate or Smarters.
       </>
     ),
   },
   {
     category: "Setup & streaming",
-    question: "3. What internet speed do I need for smooth Flash 4K streaming?",
+    question: "3. What internet speed do I need for smooth Flash4K streaming?",
     answer: (
       <>
         For reliable playback, allow at least 10 Mbps per stream for HD and 25 Mbps per stream for 4K. Ethernet or 5 GHz Wi-Fi is recommended.
@@ -96,7 +96,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Setup & streaming",
-    question: "4. Why is Flash 4K buffering or freezing?",
+    question: "4. Why is Flash4K buffering or freezing?",
     answer: (
       <>
         Restart your IPTV app and router. If buffering persists, check your Wi-Fi signal or <Link href="/contact" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">contact support</Link> for quick assistance.
@@ -105,7 +105,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Setup & streaming",
-    question: "5. Do I need a VPN to use Flash 4K?",
+    question: "5. Do I need a VPN to use Flash4K?",
     answer: (
       <>
         A VPN is not required but is recommended in some regions to ensure unrestricted access and added privacy. Contact our <Link href="/contact" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">support team</Link> for VPN setup recommendations.
@@ -114,7 +114,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Plans & access",
-    question: "1. Are there any hidden fees or contracts with Flash 4K?",
+    question: "1. Are there any hidden fees or contracts with Flash4K?",
     answer: (
       <>
         No contracts and no hidden fees. Choose an <Link href="/pricing" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">IPTV subscription plan</Link> with transparent pricing and instant delivery.
@@ -123,7 +123,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Plans & access",
-    question: "2. Can I use Flash 4K on multiple devices?",
+    question: "2. Can I use Flash4K on multiple devices?",
     answer: (
       <>
         Yes! We offer multi-device subscription plans. Select the 1, 2, or 3 device option on our <Link href="/pricing" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">pricing page</Link>.
@@ -132,7 +132,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Plans & access",
-    question: "3. What are Flash 4K M3U and Xtream Codes details?",
+    question: "3. What are Flash4K M3U and Xtream Codes details?",
     answer: (
       <>
         Your welcome email includes both M3U playlist URLs and Xtream Codes credentials for fast setup in any IPTV app.
@@ -141,7 +141,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Payments & support",
-    question: "1. Does Flash 4K offer a free trial?",
+    question: "1. Does Flash4K offer a free trial?",
     answer: (
       <>
         Yes, we offer a <a href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Flash4K%20IPTV." target="_blank" rel="noreferrer" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">free trial</a> so you can test our service before subscribing.
@@ -150,7 +150,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Payments & support",
-    question: "2. Which payment methods does Flash 4K accept?",
+    question: "2. Which payment methods does Flash4K accept?",
     answer: (
       <>
         We accept PayPal, Crypto (Bitcoin), Credit Cards, and Instant Bank Transfers. For help with payments, reach out to our <Link href="/contact" className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors">support team</Link>.
@@ -169,7 +169,7 @@ const faqs: FAQItem[] = [
 ];
 
 export default function FAQ() {
-  const [activeCategory, setActiveCategory] = useState<Category>("About Flash 4K");
+  const [activeCategory, setActiveCategory] = useState<Category>("About Flash4K");
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const visibleFaqs = faqs.filter((faq) => faq.category === activeCategory);
 
@@ -183,7 +183,7 @@ export default function FAQ() {
     const email = String(formData.get("email") || "").trim();
     const subject = String(formData.get("subject") || "General support").trim();
     const message = String(formData.get("message") || "").trim();
-    const text = encodeURIComponent(`Hello Flash 4K support,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`);
+    const text = encodeURIComponent(`Hello Flash4K support,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`);
     window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }
 

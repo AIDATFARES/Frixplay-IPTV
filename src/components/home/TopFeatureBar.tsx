@@ -19,7 +19,7 @@ export default function TopFeatureBar() {
           <div className="relative w-full aspect-[4/3] md:aspect-video lg:aspect-[4/3] xl:aspect-video rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(255,184,0,0.15)] border border-white/10 group">
              <Image 
                src="/about-tv-bg.webp" 
-               alt="Flash 4K Service on TV"
+               alt="Flash4K Service on TV"
                fill
                className="object-cover group-hover:scale-105 transition-transform duration-700"
              />
@@ -42,15 +42,15 @@ export default function TopFeatureBar() {
               About the Service
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-black text-white leading-[1.1] mb-6 tracking-tight">
-              What is <span className="text-[#FFB800]">Flash 4K</span>? —<br className="hidden sm:block" /> Best IPTV in USA & Canada
+              What is <span className="text-[#FFB800]">Flash4K</span>? —<br className="hidden sm:block" /> Best IPTV in USA & Canada
             </h2>
             
             <div className="space-y-5 text-stone-300 text-sm sm:text-base leading-relaxed mb-10 font-medium">
               <p>
-                Flash 4K is the premier IPTV subscription service in the USA and Canada, trusted by thousands of subscribers from New York to Toronto, Los Angeles to Vancouver. We deliver live TV, on-demand movies, and live sports to viewers across the United States, Canada, and Europe — all over the internet with no cable box required.
+                Flash4K is the premier IPTV subscription service in the USA and Canada, trusted by thousands of subscribers from New York to Toronto, Los Angeles to Vancouver. We deliver live TV, on-demand movies, and live sports to viewers across the United States, Canada, and Europe — all over the internet with no cable box required.
               </p>
               <p>
-                In particular, Flash 4K runs on any internet-connected device — Smart TVs, Firestick, Android, iOS, and MAG Box — giving you access to a massive library without long-term contracts or equipment rental.
+                In particular, Flash4K runs on any internet-connected device — Smart TVs, Firestick, Android, iOS, and MAG Box — giving you access to a massive library without long-term contracts or equipment rental.
               </p>
               <p>
                 From breaking news and blockbuster movies to live football, basketball, and PPV events. It is built for modern households that want one flexible subscription covering everything cable used to do — at a fraction of the price. For reference, the official website is <span className="text-[#FFB800] font-bold">flash4k-iptv.shop</span>.

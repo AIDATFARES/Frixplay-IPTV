@@ -12,7 +12,7 @@ export default function TVMockup() {
       >
         <div className="animate-float w-full transition-transform duration-500 filter drop-shadow-[0_25px_50px_rgba(0,0,0,0.7)] group-hover:scale-[1.03] group-hover:-translate-y-2">
           <Image
-            alt="Flash 4K streaming on TV, phone, tablet, and laptop"
+            alt="Flash4K streaming on TV, phone, tablet, and laptop"
             className="h-auto w-full object-contain filter drop-shadow-[0_12px_30px_rgba(6,182,212,0.2)]"
             height={1000}
             priority

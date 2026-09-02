@@ -83,7 +83,7 @@ export default function ChannelCategories() {
             IPTVFlash4K subscription prices
           </h2>
           <p className="text-stone-300 text-sm md:text-base max-w-3xl mx-auto mb-8 font-medium">
-            Buying iptv from <span className="font-bold text-white">Flash 4K</span> allows you to enjoy +50,000 Channels, +120,000 Films &amp; Series, and 200,000+ VODs.
+            Buying iptv from <span className="font-bold text-white">Flash4K</span> allows you to enjoy +50,000 Channels, +120,000 Films &amp; Series, and 200,000+ VODs.
           </p>
           <p className="text-2xl md:text-[28px] font-semibold text-white">
             High-Quality IPTV Servers <span className="text-[#FFB800]">with 24/7 Uptime</span> and Zero Buffering!

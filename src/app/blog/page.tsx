@@ -14,7 +14,7 @@ export default function Blog() {
       <header className="mb-16 text-center md:text-left">
         <h1 className="font-display-lg text-display-lg text-on-surface mb-4">Latest News &amp; Streaming Tips</h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-          Stay updated with the latest in 4K streaming technology, new channel additions, and guides to optimize your Flash 4K experience.
+          Stay updated with the latest in 4K streaming technology, new channel additions, and guides to optimize your Flash4K experience.
         </p>
       </header>
 

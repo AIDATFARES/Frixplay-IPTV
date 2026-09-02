@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/hero-family-bg.webp"
-          alt="Flash 4K Background"
+          alt="Flash4K Background"
           priority
           fill
           sizes="100vw"
@@ -31,7 +31,7 @@ export default function HeroSection() {
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight leading-[1.08] drop-shadow-2xl text-center">
-          <span className="text-[#FFB800]">Flash 4K</span> <span className="text-white">The Best IPTV</span> <br />
+          <span className="text-[#FFB800]">Flash4K</span> <span className="text-white">The Best IPTV</span> <br />
           <span className="text-white">Service Provider for</span> <br />
           <span className="text-white">2026</span>
         </h1>

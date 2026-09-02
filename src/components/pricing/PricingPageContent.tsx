@@ -38,14 +38,14 @@ const includedFeatures = [
   { icon: Tv, title: "+50,000 Channels", text: "Explore live channels from around the world, including sports, news and entertainment." },
   { icon: MonitorSmartphone, title: "200,000+ VODs", text: "Enjoy +120,000 Films & Series and a massive, regularly refreshed video-on-demand library." },
   { icon: Zap, title: "Anti-freeze Technology", text: "Optimized streaming technology helps deliver a smoother experience at busy times." },
-  { icon: Headphones, title: "24/7 Support", text: "The Flash 4K support team is here to help with setup and streaming questions." },
-  { icon: Sparkles, title: "Fast Setup", text: "Your Flash 4K details are sent after payment so you can start setting up quickly." },
+  { icon: Headphones, title: "24/7 Support", text: "The Flash4K support team is here to help with setup and streaming questions." },
+  { icon: Sparkles, title: "Fast Setup", text: "Your Flash4K details are sent after payment so you can start setting up quickly." },
   { icon: CreditCard, title: "TV Guide (EPG)", text: "Browse your channel schedule more easily with an electronic programme guide." },
 ];
 
 const billingQuestions = [
-  { question: "1. Which payment methods can I use?", answer: <>Available payment options are shown when you place your order. <Link className="font-semibold text-[#FFB800] hover:text-[#FFE600] transition-colors" href="/contact">Contact Flash 4K support</Link> if you need help before purchasing.</> },
-  { question: "2. Is my payment protected?", answer: "Please use the official Flash 4K payment process and never share payment details through an unverified link or message." },
+  { question: "1. Which payment methods can I use?", answer: <>Available payment options are shown when you place your order. <Link className="font-semibold text-[#FFB800] hover:text-[#FFE600] transition-colors" href="/contact">Contact Flash4K support</Link> if you need help before purchasing.</> },
+  { question: "2. Is my payment protected?", answer: "Please use the official Flash4K payment process and never share payment details through an unverified link or message." },
   { question: "3. Will my subscription renew automatically?", answer: <>Renewal details are provided when you order. If you have any questions about your subscription period or renewal, <Link className="font-semibold text-[#FFB800] hover:text-[#FFE600] transition-colors" href="/contact">contact support</Link> before your plan expires.</> },
   { question: "4. Can I change my plan or number of connections?", answer: <>Yes. <Link className="font-semibold text-[#FFB800] hover:text-[#FFE600] transition-colors" href="/contact">Contact the support team</Link> with your order email and the plan or connection change you need, and they will advise on the available options.</> },
 ];
@@ -59,7 +59,7 @@ export default function PricingSection() {
 
   function handleOrder(plan: Plan) {
     const text = encodeURIComponent(
-      `Hello! I would like to purchase the Flash 4K ${plan.duration} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
+      `Hello! I would like to purchase the Flash4K ${plan.duration} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
     );
     window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }
@@ -70,12 +70,12 @@ export default function PricingSection() {
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         <header className="mx-auto max-w-3xl text-center">
-          <span className="inline-flex rounded-full border border-[#FFE600]/35 bg-[#FFE600]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#FF7A00]">Flash 4K</span>
+          <span className="inline-flex rounded-full border border-[#FFE600]/35 bg-[#FFE600]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-[#FF7A00]">Flash4K</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
             <span className="block text-white">Choose Your Exclusive</span>
             <span className="mt-1 block text-[#FFB800]">Subscription Plans &amp; Pricing.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-400 sm:text-base">Choose the Flash 4K plan that fits you, with secure checkout and helpful 24/7 support.</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-400 sm:text-base">Choose the Flash4K plan that fits you, with secure checkout and helpful 24/7 support.</p>
           <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-stone-500">Need help getting started? Visit our <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/installation">installation guide</Link> or browse the <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/channels">channel list</Link> before you order.</p>
         </header>
 
@@ -115,13 +115,13 @@ export default function PricingSection() {
             </article>
           ))}
         </div>
-        <p className="mt-6 text-center text-sm text-stone-400">Reliable support for every Flash 4K subscription.</p>
+        <p className="mt-6 text-center text-sm text-stone-400">Reliable support for every Flash4K subscription.</p>
 
         <section className="mt-20 grid gap-8 rounded-3xl border border-white/10 bg-[#0b0f1c]/80 p-6 shadow-2xl lg:grid-cols-[1.2fr_0.8fr] lg:p-10">
           <div className="flex flex-col justify-center">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#FF7A00]">Diamond plan</p>
             <h2 className="mt-3 text-3xl font-bold text-white sm:text-4xl">24 Months — our best subscription value</h2>
-            <p className="mt-4 max-w-2xl leading-7 text-stone-400">Enjoy uninterrupted Flash 4K streaming across supported devices, with fast activation, 4K and Full HD quality, a TV guide, and ongoing support.</p>
+            <p className="mt-4 max-w-2xl leading-7 text-stone-400">Enjoy uninterrupted Flash4K streaming across supported devices, with fast activation, 4K and Full HD quality, a TV guide, and ongoing support.</p>
             <div className="mt-6 grid grid-cols-1 gap-3 text-sm text-stone-300 sm:grid-cols-2">
               {["4K & High Definition", "+50,000 Channels", "+120,000 Films & Series", "200,000+ VODs", "All supported devices", "Updated TV guide"].map((feature) => <p className="flex items-center gap-2" key={feature}><Check className="h-4 w-4 text-[#FFE600]" strokeWidth={3} />{feature}</p>)}
             </div>
@@ -162,7 +162,7 @@ export default function PricingSection() {
           </div>
         </section>
 
-        <div className="mt-12 flex items-center justify-center gap-2 text-sm text-[#FF7A00]"><ShieldCheck className="h-5 w-5 text-[#FFB800]" />Secure ordering and friendly Flash 4K support.</div>
+        <div className="mt-12 flex items-center justify-center gap-2 text-sm text-[#FF7A00]"><ShieldCheck className="h-5 w-5 text-[#FFB800]" />Secure ordering and friendly Flash4K support.</div>
       </div>
     </section>
   );

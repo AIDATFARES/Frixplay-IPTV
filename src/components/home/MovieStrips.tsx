@@ -37,7 +37,7 @@ export default function MovieStrips() {
           href="/channels"
           className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#FFB800] text-white text-sm md:text-base font-medium bg-black/20 hover:bg-[#FFB800]/10 transition-colors duration-300 gap-2"
         >
-          View Flash 4K Channel List <span aria-hidden="true">&rarr;</span>
+          View Flash4K Channel List <span aria-hidden="true">&rarr;</span>
         </Link>
       </div>
 

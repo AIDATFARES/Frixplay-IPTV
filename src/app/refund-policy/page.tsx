@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | Flash 4K",
-  description: "Read the Flash 4K refund and cancellation policy. We strive for 100% customer satisfaction with our premium IPTV service.",
+  title: "Refund Policy | Flash4K",
+  description: "Read the Flash4K refund and cancellation policy. We strive for 100% customer satisfaction with our premium IPTV service.",
   alternates: {
     canonical: "/refund-policy",
   },
@@ -13,7 +13,7 @@ const sections = [
   {
     title: "Our Commitment to You",
     content: [
-      "At Flash 4K, we uphold the standard of our IPTV subscription service. This policy specifies when refunds may be applicable, ensuring that we maintain a transparent and just process for every customer.",
+      "At Flash4K, we uphold the standard of our IPTV subscription service. This policy specifies when refunds may be applicable, ensuring that we maintain a transparent and just process for every customer.",
     ],
   },
   {

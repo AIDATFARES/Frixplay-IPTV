@@ -61,7 +61,7 @@ export default function FeaturesSection() {
             viewport={{ once: true }}
             className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-semibold text-on-background mb-sm"
           >
-            Flash 4K for Flawless Streaming
+            Flash4K for Flawless Streaming
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 10 }}

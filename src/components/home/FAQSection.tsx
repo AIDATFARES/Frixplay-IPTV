@@ -8,10 +8,10 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
   {
     id: 1,
-    question: "1. What is Flash 4K?",
+    question: "1. What is Flash4K?",
     answer: (
       <>
-        Flash 4K is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        Flash4K is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link
           href="/channels"
           className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     id: 2,
-    question: "2. Do I need a subscription to use Flash 4K?",
+    question: "2. Do I need a subscription to use Flash4K?",
     answer: (
       <>
         Yes, a subscription is required. However, we offer a{" "}
@@ -56,10 +56,10 @@ const faqs = [
   },
   {
     id: 3,
-    question: "3. What devices are compatible with Flash 4K?",
+    question: "3. What devices are compatible with Flash4K?",
     answer: (
       <>
-        Flash 4K works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
+        Flash4K works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
         <Link
           href="/installation"
           className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
@@ -88,7 +88,7 @@ const faqs = [
   },
   {
     id: 5,
-    question: "5. Can I watch sports on Flash 4K?",
+    question: "5. Can I watch sports on Flash4K?",
     answer: (
       <>
         Absolutely. We offer a wide selection of live sports channels, including major leagues and international events. Explore our full{" "}

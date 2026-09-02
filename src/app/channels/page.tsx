@@ -117,7 +117,7 @@ export default function ChannelsPage() {
             transition={{ delay: 0.1 }}
             className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight"
           >
-            <span className="block text-white">Popular Flash 4K</span>
+            <span className="block text-white">Popular Flash4K</span>
             <span className="mt-1 block text-[#FFB800]">Live Channels &amp; VOD.</span>
           </motion.h1>
 
