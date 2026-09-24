@@ -2,10 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | Flash4K",
-  description: "Read the Flash4K refund and cancellation policy. We strive for 100% customer satisfaction with our premium IPTV service.",
+  title: "Frixplay IPTV – Refund Policy & Satisfaction Guarantee",
+  description: "Frixplay IPTV Refund Policy: We guarantee reliable streaming performance with clear terms, transparent cancellation, and a 7-day satisfaction window.",
   alternates: {
     canonical: "/refund-policy",
+  },
+  openGraph: {
+    title: "Frixplay IPTV – Refund Policy & Satisfaction Guarantee",
+    description: "Frixplay IPTV Refund Policy: We guarantee reliable streaming performance with clear terms, transparent cancellation, and a 7-day satisfaction window.",
+    url: "https://www.frixplay.store/refund-policy",
+    siteName: "Frixplay IPTV",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frixplay IPTV – Refund Policy & Money-Back Terms",
+    description: "Frixplay IPTV customer satisfaction commitment, transparent refund terms, and money-back guidelines.",
   },
 };
 
@@ -13,7 +26,7 @@ const sections = [
   {
     title: "Our Commitment to You",
     content: [
-      "At Flash4K, we uphold the standard of our IPTV subscription service. This policy specifies when refunds may be applicable, ensuring that we maintain a transparent and just process for every customer.",
+      "At Frixplay IPTV, we uphold the standard of our IPTV subscription service. This policy specifies when refunds may be applicable, ensuring that we maintain a transparent and just process for every customer.",
     ],
   },
   {

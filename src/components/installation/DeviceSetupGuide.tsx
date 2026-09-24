@@ -16,7 +16,7 @@ const faqs = [
   { question: "1. How do I install IPTV on a Smart TV?", answer: "Install a compatible player such as Smart IPTV or IPTV Smarters from your TV's app store, then add the M3U URL or Xtream credentials from your welcome email." },
   { question: "2. Where do I find my M3U URL?", answer: "Your M3U URL is included in the welcome email sent after activation. Contact support if you need it resent." },
   { question: "3. How can I reduce buffering?", answer: "Use a stable internet connection, restart your device and router, and select an appropriate quality setting for your connection." },
-  { question: "4. How do I set up Flash4K using Xtream Codes API?", answer: "Choose Xtream Codes API in your player and enter the server URL, username, and password from your welcome email." },
+  { question: "4. How do I set up Frixplay IPTV using Xtream Codes API?", answer: "Choose Xtream Codes API in your player and enter the server URL, username, and password from your welcome email." },
   { question: "5. Can I connect using a MAC address (Portal URL)?", answer: "Yes. MAG and compatible portal devices can be activated using their MAC address. Send it to our support team for assistance." },
 ];
 
@@ -52,7 +52,7 @@ export default function DeviceSetupGuide() {
           <CodeLine label="M3U URL" text="Use the secure playlist URL from your welcome email" />
           <SetupStep number="3" title="Add EPG (optional)">Enable the TV guide by entering your EPG URL in the app&apos;s settings menu.</SetupStep>
           <CodeLine label="EPG URL" text="Use the EPG URL from your welcome email" />
-          <SetupStep number="4" title="Start Watching">Reopen the app to load your playlist and start watching Flash4K channels.</SetupStep>
+          <SetupStep number="4" title="Start Watching">Reopen the app to load your playlist and start watching Frixplay channels.</SetupStep>
         </div>
       </article>
 

@@ -38,7 +38,7 @@ export default function PricingSection() {
 
   function handleOrder(plan: Plan) {
     const text = encodeURIComponent(
-      `Hello! I would like to purchase the Flash4K ${plan.duration} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
+      `Hello! I would like to purchase the Frixplay IPTV ${plan.duration} plan with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
     );
     window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }
@@ -50,7 +50,7 @@ export default function PricingSection() {
         <header className="mx-auto max-w-3xl text-center">
           <p className="inline-flex rounded-full border border-[#FFB800]/30 bg-red-950/40 px-4 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-[#FF7A00]">Premium IPTV plans</p>
           <h2 className="mt-5 text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl">
-            Choose your <span className="text-gradient-primary">Flash4K plan</span>
+            Choose your <span className="text-gradient-primary">Frixplay plan</span>
           </h2>
           <p className="mt-5 text-xl font-bold tracking-wide text-white sm:text-2xl">Simple, transparent pricing</p>
           <p className="mt-2 text-sm text-stone-400 sm:text-base">No contracts. No hidden fees. Instant delivery after purchase.</p>
@@ -96,7 +96,7 @@ export default function PricingSection() {
           ))}
         </div>
 
-        <p className="mt-6 text-center text-sm text-stone-400">Reliable support for every Flash4K subscription.</p>
+        <p className="mt-6 text-center text-sm text-stone-400">Reliable support for every Frixplay IPTV subscription.</p>
 
         <div className="mx-auto mt-10 flex max-w-4xl flex-col items-center gap-7">
           <div aria-label="Supported payment methods" className="flex flex-wrap items-center justify-center gap-4">

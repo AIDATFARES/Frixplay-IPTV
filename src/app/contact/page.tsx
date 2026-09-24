@@ -27,9 +27,9 @@ export default function Contact() {
             <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">For general inquiries and support.</p>
             <a
               className="text-primary font-medium hover:text-primary-fixed transition-colors"
-              href="mailto:support@flash4k-iptv.shop"
+              href="mailto:support@frixplay.store"
             >
-              support@flash4k-iptv.shop
+              support@frixplay.store
             </a>
           </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
             </p>
             <a
               className="text-emerald-400 font-medium hover:text-emerald-300 transition-colors flex items-center gap-xs"
-              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20Flash4K."
+              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20Frixplay."
               target="_blank"
               rel="noreferrer"
             >

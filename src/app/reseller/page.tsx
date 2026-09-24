@@ -1,10 +1,23 @@
 import ResellerPageContent from "@/components/reseller/ResellerPageContent";
 
 export const metadata = {
-  title: "Build Your IPTV Reseller Business – High-Margin Plans | Flash4K",
-  description: "Start your profitable IPTV reseller business today. Enjoy high margins, a powerful management panel, instant setup and flexible credit packages. Get started now!",
+  title: "Frixplay IPTV – Reseller Program, Credits & Panel Access",
+  description: "Launch your IPTV business with Frixplay IPTV. Get a high-speed reseller panel, low credit costs, sub-reseller tools, instant activation & 99.9% server uptime!",
   alternates: {
     canonical: "/reseller",
+  },
+  openGraph: {
+    title: "Frixplay IPTV – Reseller Program, Credits & Panel Access",
+    description: "Launch your IPTV business with Frixplay IPTV. Get a high-speed reseller panel, low credit costs, sub-reseller tools, instant activation & 99.9% server uptime!",
+    url: "https://www.frixplay.store/reseller",
+    siteName: "Frixplay IPTV",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frixplay IPTV – Start an IPTV Reseller Business",
+    description: "Earn high recurring profits with Frixplay IPTV reseller credits. Automated panel & full sub-reseller management.",
   },
 };
 

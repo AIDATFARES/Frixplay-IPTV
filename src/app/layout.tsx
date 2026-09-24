@@ -22,32 +22,36 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Ultimate 4K IPTV Service – 50,000+ Channels & VOD | Flash4K",
-  description: "Unlock endless entertainment with Flash4K. Stream 50,000+ live TV channels, premium sports, and 120,000+ VODs in true 4K quality across all your favorite devices.",
-  metadataBase: new URL("https://www.flash4k-iptv.shop"),
+  title: {
+    default: "Frixplay IPTV – #1 Best 4K IPTV Subscription Service [2026]",
+    template: "%s",
+  },
+  description: "Frixplay IPTV delivers 50,000+ live channels, 4K live sports & 120K+ VOD movies buffer-free. Anti-freeze servers, 99.9% uptime & instant setup. Get your free trial!",
+  metadataBase: new URL("https://www.frixplay.store"),
   alternates: {
     canonical: "/",
   },
   icons: {
     icon: [
-      { url: "/favicon.webp", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.webp", type: "image/webp" },
       { url: "/favicon.ico" },
     ],
     shortcut: "/favicon.webp",
-    apple: "/favicon.webp",
+    apple: "/icon.png",
   },
   openGraph: {
-    title: "Ultimate 4K IPTV Service – 50,000+ Channels & VOD | Flash4K",
-    description: "Unlock endless entertainment with Flash4K. Stream 50,000+ live TV channels, premium sports, and 120,000+ VODs in true 4K quality across all your favorite devices.",
-    url: "https://www.flash4k-iptv.shop",
-    siteName: "Flash4K",
+    title: "Frixplay IPTV – #1 Best 4K IPTV Subscription Service [2026]",
+    description: "Frixplay IPTV delivers 50,000+ live channels, 4K live sports & 120K+ VOD movies buffer-free. Anti-freeze servers, 99.9% uptime & instant setup. Get your free trial!",
+    url: "https://www.frixplay.store",
+    siteName: "Frixplay IPTV",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Flash4K - Premium 4K Streaming",
-    description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
+    title: "Frixplay IPTV – #1 Best 4K IPTV Subscription Service",
+    description: "Stream 50,000+ live channels, 4K live sports & 120K+ VOD movies with Frixplay IPTV. Anti-freeze servers, 99.9% uptime & instant delivery.",
   },
 };
 
@@ -72,7 +76,7 @@ export default function RootLayout({
             <div className="col-span-2 sm:col-span-4 xl:col-span-1 min-w-0 max-w-[310px] space-y-4">
               <Link href="/"><BrandLogo /></Link>
               <p className="max-w-[285px] whitespace-normal break-normal text-sm leading-6 text-stone-300">
-                © 2024 Flash4K. Premium 4K IPTV Streaming Services. All rights reserved.
+                © 2026 Frixplay IPTV. Premium 4K IPTV Streaming Services. All rights reserved.
               </p>
               <a href="https://wa.me/213552069874" target="_blank" rel="noreferrer" className="flex max-w-[270px] items-center gap-3 rounded-2xl border border-emerald-500/30 bg-emerald-500/[0.08] p-3.5 transition-colors hover:from-[#FF7A00] hover:to-[#FFB800]/[0.15] group">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500 text-white shadow-lg shadow-emerald-500/20 transition-transform group-hover:scale-105">
@@ -105,7 +109,7 @@ export default function RootLayout({
               <ul className="space-y-3 font-body-sm text-sm">
                 <li><Link prefetch={false} className="text-stone-400 transition-colors hover:text-white" href="/pricing">Get Started</Link></li>
                 <li><a className="text-stone-400 transition-colors hover:text-white" href="https://wa.me/213552069874" target="_blank" rel="noreferrer">WhatsApp</a></li>
-                <li><a className="text-stone-400 transition-colors hover:text-white" href="mailto:support@flash4k-iptv.shop">Email</a></li>
+                <li><a className="text-stone-400 transition-colors hover:text-white" href="mailto:support@frixplay.store">Email</a></li>
                 <li><Link prefetch={false} className="text-stone-400 transition-colors hover:text-white" href="/channels">Channels</Link></li>
                 <li><Link prefetch={false} className="text-stone-400 transition-colors hover:text-white" href="/installation">Setup Guide</Link></li>
               </ul>

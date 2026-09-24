@@ -14,7 +14,7 @@ export default function BlogOfferCard() {
         <div className="space-y-3 text-center md:text-left w-full md:w-2/3">
           <div className="inline-flex items-center gap-2 rounded-full border border-[#FFB800]/30 bg-[#FFB800]/10 px-3 py-1 text-[10px] font-extrabold uppercase tracking-widest text-[#FFE600]">
             <Sparkles className="w-3 h-3 text-[#FFB800]" />
-            <span>FLASH 4K PREMIUM IPTV OFFER</span>
+            <span>FRIXPLAY PREMIUM IPTV OFFER</span>
           </div>
           <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-tight">
             Stream 2026 NFL Games in <span className="text-[#FFB800]">4K & 60FPS</span>
@@ -33,7 +33,7 @@ export default function BlogOfferCard() {
             View Subscription Plans
           </Link>
           <a
-            href="https://wa.me/213552069874?text=Hello%2C%20I%20am%20interested%20in%20Flash4K%20IPTV%20for%20live%20NFL%20streaming."
+            href="https://wa.me/213552069874?text=Hello%2C%20I%20am%20interested%20in%20Frixplay%20IPTV%20for%20live%20NFL%20streaming."
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-full border border-white/20 bg-[#080b18] px-6 py-3 text-xs font-extrabold uppercase tracking-wider text-white hover:border-[#FFE600] hover:text-[#FFE600] transition-colors"

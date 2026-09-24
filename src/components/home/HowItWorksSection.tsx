@@ -7,14 +7,14 @@ export default function HowItWorksSection() {
       <div className="max-w-[1240px] mx-auto px-6">
 
         {/* ========================================================================= */}
-        {/* PART 1: How does it work? Flash4K Timeline */}
+        {/* PART 1: How does it work? Frixplay Timeline */}
         {/* ========================================================================= */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-widest text-[#FFB800] mb-2 block">
             EASY 3-STEP PROCESS
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#FFB800] tracking-tight">
-            How does it work? Flash4K
+            How does it work? Frixplay IPTV
           </h2>
           <p className="text-stone-300 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
             Get your{" "}
@@ -77,8 +77,8 @@ export default function HowItWorksSection() {
               <div className="overflow-hidden rounded-2xl bg-white/5 border border-white/10 shadow-xl"
               >
                 <Image
-                  src="/place-your-order-v2.webp"
-                  alt="Place your order online"
+                  src="/frixplay-step-order.webp"
+                  alt="Place your Frixplay IPTV order online"
                   width={600}
                   height={380}
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
@@ -101,8 +101,8 @@ export default function HowItWorksSection() {
               <div className="overflow-hidden rounded-2xl bg-white/5 border border-white/10 shadow-xl order-2 md:order-1"
               >
                 <Image
-                  src="/installation-setup.webp"
-                  alt="Instant installation"
+                  src="/frixplay-step-setup.webp"
+                  alt="Instant installation and setup"
                   width={600}
                   height={380}
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
@@ -171,7 +171,7 @@ export default function HowItWorksSection() {
               <div className="overflow-hidden rounded-2xl bg-white/5 border border-white/10 shadow-xl"
               >
                 <Image
-                  src="/watch-enjoy.webp"
+                  src="/frixplay-step-watch.webp"
                   alt="Watch and enjoy live TV"
                   width={600}
                   height={380}
@@ -183,15 +183,15 @@ export default function HowItWorksSection() {
         </div>
 
         {/* ========================================================================= */}
-        {/* PART 2: Getting Started with Flash4K Is Easy */}
+        {/* PART 2: Getting Started with Frixplay Is Easy */}
         {/* ========================================================================= */}
         <div className="pt-10 border-t border-white/10">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#FFB800] tracking-tight">
-              Getting Started with Flash4K Is Easy
+              Getting Started with Frixplay Is Easy
             </h2>
             <p className="text-stone-300 text-sm sm:text-base mt-4 leading-relaxed">
-              Enjoy high quality IPTV streaming with Flash4K. Watch{" "}
+              Enjoy high quality IPTV streaming with Frixplay. Watch{" "}
               <Link
                 href="/channels"
                 className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
@@ -208,7 +208,7 @@ export default function HowItWorksSection() {
               <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-white/5"
               >
                 <Image
-                  src="/complete-experience.webp"
+                  src="/frixplay-feature-sports.webp"
                   alt="Complete IPTV Subscription Experience"
                   width={600}
                   height={400}
@@ -233,7 +233,7 @@ export default function HowItWorksSection() {
                   >
                     IPTV subscription
                   </a>{" "}
-                  from Flash4K. Choose from 1, 3, 6 or 12 months packages and experience continuous entertainment with full access to our{" "}
+                  from Frixplay. Choose from 1, 3, 6 or 12 months packages and experience continuous entertainment with full access to our{" "}
                   <Link
                     href="/channels"
                     className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"
@@ -278,7 +278,7 @@ export default function HowItWorksSection() {
               <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-white/5 order-1 md:order-2"
               >
                 <Image
-                  src="/channels-vods-banner.webp"
+                  src="/frixplay-feature-channels.webp"
                   alt="+50,000 Live Channels & VODs"
                   width={600}
                   height={400}
@@ -292,7 +292,7 @@ export default function HowItWorksSection() {
               <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-white/5"
               >
                 <Image
-                  src="/epg-guide.webp"
+                  src="/frixplay-feature-epg.webp"
                   alt="Live TV and TV Guide EPG"
                   width={600}
                   height={400}
@@ -310,7 +310,7 @@ export default function HowItWorksSection() {
                   </Link>
                 </h3>
                 <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
-                  With Flash4K you get access to an interactive TV guide (EPG), Live TV, and replay options. Read our{" "}
+                  With Frixplay you get access to an interactive TV guide (EPG), Live TV, and replay options. Read our{" "}
                   <Link
                     href="/installation"
                     className="text-[#FFB800] font-semibold hover:text-[#FFE600] transition-colors"

@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 export default function LatestArticlesSection() {
   // Select featured articles from our blog dataset
   const featuredSlugs = [
-    "iptv-works-on-one-device-but-not-another",
-    "iptv-buffering-after-a-few-minutes",
-    "iptv-keeps-freezing-causes-fixes",
+    "how-iptv-works",
+    "how-to-setup-iptv-on-smart-tv",
+    "iptv-vs-streaming-services",
   ];
 
   const latestPosts = featuredSlugs

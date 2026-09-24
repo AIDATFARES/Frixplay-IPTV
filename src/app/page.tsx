@@ -2,8 +2,23 @@ import HeroSection from "@/components/home/HeroSection";
 import Link from "next/link";
 
 export const metadata = {
+  title: "Frixplay IPTV – #1 Best 4K IPTV Subscription Service [2026]",
+  description: "Frixplay IPTV delivers 50,000+ live channels, 4K live sports & 120K+ VOD movies buffer-free. Anti-freeze servers, 99.9% uptime & instant setup. Get your free trial!",
   alternates: {
     canonical: "/",
+  },
+  openGraph: {
+    title: "Frixplay IPTV – #1 Best 4K IPTV Subscription Service [2026]",
+    description: "Frixplay IPTV delivers 50,000+ live channels, 4K live sports & 120K+ VOD movies buffer-free. Anti-freeze servers, 99.9% uptime & instant setup. Get your free trial!",
+    url: "https://www.frixplay.store",
+    siteName: "Frixplay IPTV",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frixplay IPTV – #1 Best 4K IPTV Subscription Service",
+    description: "Stream 50,000+ live channels, 4K live sports & 120K+ VOD movies with Frixplay IPTV. Anti-freeze servers, 99.9% uptime & instant delivery.",
   },
 };
 
@@ -14,7 +29,6 @@ import ChannelCategories from "@/components/home/ChannelCategories";
 import DeviceSupport from "@/components/home/DeviceSupport";
 import HowItWorksSection from "@/components/home/HowItWorksSection";
 import PricingSection from "@/components/home/PricingSection";
-import TestimonialsSection from "@/components/home/TestimonialsSection";
 import FAQSection from "@/components/home/FAQSection";
 import LatestArticlesSection from "@/components/home/LatestArticlesSection";
 import SupportCtaSection from "@/components/home/SupportCtaSection";
@@ -49,7 +63,7 @@ export default function Home() {
       {/* Channel & Installation Quick Links */}
       <div className="w-full bg-[#050607] py-6 px-4 text-center border-t border-white/5 relative z-20">
         <p className="text-center text-sm md:text-base text-stone-400 max-w-3xl mx-auto">
-          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/channels">Flash4K Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/installation">Flash4K Installation Guide</Link> for a quick start.
+          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/channels">Frixplay Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FFB800] hover:text-[#FFE600]" href="/installation">Frixplay Installation Guide</Link> for a quick start.
         </p>
       </div>
 
@@ -64,8 +78,7 @@ export default function Home() {
       <FAQSection />
       <LatestArticlesSection />
 
-      {/* Social Proof & Conversion */}
-      <TestimonialsSection />
+      {/* Support & Conversion */}
       <SupportCtaSection />
     </main>
   );

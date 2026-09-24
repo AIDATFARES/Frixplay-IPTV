@@ -19,19 +19,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: 'Post Not Found | Flash4K' };
+    return { title: 'Frixplay IPTV – Post Not Found' };
   }
 
+  const seoTitle = post.title.startsWith("Frixplay IPTV") ? post.title : `Frixplay IPTV – ${post.title}`;
+
   return {
-    title: `${post.title} | Flash4K`,
+    title: seoTitle,
     description: post.description,
     alternates: {
       canonical: `/blog/${post.slug}`,
     },
     openGraph: {
-      title: `${post.title} | Flash4K`,
+      title: seoTitle,
       description: post.description,
-      url: `/blog/${post.slug}`,
+      url: `https://www.frixplay.store/blog/${post.slug}`,
+      siteName: 'Frixplay IPTV',
       ...(post.coverImage && {
         images: [
           {
@@ -44,6 +47,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       }),
       type: 'article',
       publishedTime: post.date,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seoTitle,
+      description: post.description,
+      ...(post.coverImage && {
+        images: [post.coverImage],
+      }),
     }
   };
 }
@@ -150,7 +161,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {post.category}
           </span>
           <h1 className="font-display-md md:font-display-lg text-display-md md:text-display-lg text-on-surface mb-6">
-            {post.title}
+            {post.title.replace(/^Frixplay IPTV\s*[–—-]\s*/, "")}
           </h1>
           <div className="flex items-center justify-center gap-4 text-on-surface-variant font-label-lg text-label-lg opacity-80">
             <span>{post.date}</span>

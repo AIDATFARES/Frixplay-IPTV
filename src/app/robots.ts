@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://www.flash4k-iptv.shop/sitemap.xml',
+    sitemap: 'https://www.frixplay.store/sitemap.xml',
   };
 }

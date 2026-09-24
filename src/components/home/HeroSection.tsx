@@ -9,8 +9,8 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-family-bg.webp"
-          alt="Flash4K Background"
+          src="/frixplay-hero-family.webp"
+          alt="Frixplay IPTV 4K Streaming at Home"
           priority
           fill
           sizes="100vw"
@@ -31,7 +31,7 @@ export default function HeroSection() {
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight leading-[1.08] drop-shadow-2xl text-center">
-          <span className="text-[#FFB800]">Flash4K</span> <span className="text-white">The Best IPTV</span> <br />
+          <span className="text-[#FFB800]">Frixplay</span> <span className="text-white">The Best IPTV</span> <br />
           <span className="text-white">Service Provider for</span> <br />
           <span className="text-white">2026</span>
         </h1>
@@ -60,7 +60,7 @@ export default function HeroSection() {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-5 mt-8 justify-center">
           <a
-            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Flash4K%20IPTV."
+            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Frixplay%20IPTV."
             target="_blank"
             rel="noreferrer"
             aria-label="Get free trial"

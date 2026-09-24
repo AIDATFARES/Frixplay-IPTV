@@ -2,10 +2,23 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy & Data Protection | Flash4K",
-  description: "Review the Flash4K privacy policy to understand how we securely collect, use, and protect your personal information while you enjoy our IPTV service.",
+  title: "Frixplay IPTV – Privacy Policy & Secure Data Protection",
+  description: "Frixplay IPTV Privacy Policy: Learn how we protect personal information, maintain strict data encryption, and safeguard customer streaming privacy.",
   alternates: {
     canonical: "/privacy-policy",
+  },
+  openGraph: {
+    title: "Frixplay IPTV – Privacy Policy & Secure Data Protection",
+    description: "Frixplay IPTV Privacy Policy: Learn how we protect personal information, maintain strict data encryption, and safeguard customer streaming privacy.",
+    url: "https://www.frixplay.store/privacy-policy",
+    siteName: "Frixplay IPTV",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frixplay IPTV – Privacy Policy & Data Security",
+    description: "Frixplay IPTV protects customer privacy, encrypts transactions, and respects data rights.",
   },
 };
 
@@ -91,7 +104,7 @@ export default function PrivacyPolicyPage() {
         </header>
 
         <div className="mt-10 space-y-10 text-base leading-7 text-on-surface-variant">
-          <p>Welcome to Flash4K. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/contact">contact our support team</Link>.</p>
+          <p>Welcome to Frixplay IPTV. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-[#FFE600] hover:text-[#FF7A00]" href="/contact">contact our support team</Link>.</p>
           {sections.map((section) => (
             <section key={section.title}>
               <h2 className="text-2xl font-bold text-white">{section.title}</h2>

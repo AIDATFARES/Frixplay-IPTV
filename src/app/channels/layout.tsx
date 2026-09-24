@@ -1,10 +1,23 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Live IPTV Channels & VOD – Premium 4K Entertainment | Flash4K",
-  description: "Explore over 50,000 live TV channels, premium sports and a massive VOD library. Discover endless entertainment in HD and 4K. Start streaming your favorites today!",
+  title: "Frixplay IPTV – 50,000+ Live Channels & 4K Sports List (2026)",
+  description: "Explore the complete Frixplay IPTV channel list. 50,000+ live channels, live sports (EPL, NFL, PPV) & 120K+ movies in 4K/FHD with zero buffering and instant access!",
   alternates: {
     canonical: "/channels",
+  },
+  openGraph: {
+    title: "Frixplay IPTV – 50,000+ Live Channels & 4K Sports List (2026)",
+    description: "Explore the complete Frixplay IPTV channel list. 50,000+ live channels, live sports (EPL, NFL, PPV) & 120K+ movies in 4K/FHD with zero buffering and instant access!",
+    url: "https://www.frixplay.store/channels",
+    siteName: "Frixplay IPTV",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frixplay IPTV – 50,000+ Live Channels & 4K Sports List",
+    description: "Stream live sports, international channels, and 120K+ movies in 4K and FHD with zero buffering on Frixplay IPTV.",
   },
 };
 
