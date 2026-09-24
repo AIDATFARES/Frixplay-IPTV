@@ -113,7 +113,7 @@ export default function DmcaPage() {
           <div className="space-y-4">
             <p>Content featured on this website is meant for general informational use and does not serve as legal advice. By engaging with our site or services, you agree to this disclaimer.</p>
             <div className="rounded-xl border border-blue-500/20 bg-blue-500/10 p-5 text-sm">
-              <strong className="text-white">Important:</strong> Frixplay IPTV delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided 'as is' for general guidance, not legal counsel.
+              <strong className="text-white">Important:</strong> Frixplay IPTV delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided &ldquo;as is&rdquo; for general guidance, not legal counsel.
             </div>
           </div>
 
